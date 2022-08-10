@@ -9,7 +9,7 @@
  * Text Domain:     <PLUGIN-TEXTDOMAIN>
  * Domain Path:     /languages
  *
- * @author  Marco Di Bella <kontakt@marcodibella.de>
+ * @author  Marco Di Bella
  * @package <PLUGIN-PACKAGE>
  */
 
