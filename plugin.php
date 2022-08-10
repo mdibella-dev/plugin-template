@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) or exit;
 
 /** Variables and definitions **/
 
-$pligin_version = '1.0.0';          // eg. 1.0.0
+$plugin_version = '1.0.0';          // eg. 1.0.0
 $plugin_path    = plugin_dir_path( __FILE__ );
 
 
