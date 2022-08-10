@@ -1,5 +1,5 @@
-# <PROJECT-TITLE>
-<PROJECT-DESCRIPTION>
+# <PLUGIN-TITLE>
+<PLUGIN-DESCRIPTION>
 
 __Contributors:__ mdibella-dev
 
