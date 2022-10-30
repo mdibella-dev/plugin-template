@@ -1,13 +1,16 @@
 <?php
 /**
- * Plugin Name:     <PLUGIN-TITLE>
- * Plugin URI:      <PLUGIN-URI>
- * Description:     <PLUGIN-DESCRIPTION>.
- * Author:          Marco Di Bella
- * Author URI:      https://www.marcodibella.de
- * Version:         <PLUGIN-VERSION>
- * Text Domain:     <PLUGIN-TEXTDOMAIN>
- * Domain Path:     /languages
+ * Plugin Name:         <PLUGIN-TITLE>
+ * Plugin URI:          <PLUGIN-URI>
+ * Description:         <PLUGIN-DESCRIPTION>.
+ * Author:              Marco Di Bella
+ * Author URI:          https://www.marcodibella.de
+ * Requires at least:   <WORDPRESS-VERSION>
+ * Tested up to:        <WORDPRESS-VERSION>
+ * Requires PHP:        <PHP-VERSION>
+ * Version:             <PLUGIN-VERSION>
+ * Text Domain:         <PLUGIN-TEXTDOMAIN>
+ * Domain Path:         /languages
  *
  * @author  Marco Di Bella
  * @package <PLUGIN-PACKAGE>
