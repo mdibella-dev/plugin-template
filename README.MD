@@ -13,3 +13,5 @@ __Tested up to:__ WordPress X.X
 *Added/Changed/Fixed/Removed*
 
 ### main
+* Added: backend.php
+* Added: plugin_uninstall().

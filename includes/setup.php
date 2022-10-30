@@ -46,14 +46,16 @@ register_deactivation_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_deactivation' );
 
 
 /**
- * Load the backend scripts and styles.
+ * The uninstall function for the plugin.
  *
- * @since 1.1.0
+ * @since 1.0.0
  */
 
-function admin_enqueue_scripts()
+function plugin_uninstall()
 {
     // Do something!
+    // Delete options!
+    // Delete custom tables!
 }
 
-add_action( 'admin_enqueue_scripts','PLUGIN_NAMESPACE\admin_enqueue_scripts' );
+register_uninstall_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_uninstall' );
