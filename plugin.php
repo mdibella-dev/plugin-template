@@ -32,3 +32,4 @@ $plugin_path    = plugin_dir_path( __FILE__ );
 /** Include files */
 
 require_once( $plugin_path . 'includes/setup.php' );
+require_once( $plugin_path . 'includes/backend.php' );
