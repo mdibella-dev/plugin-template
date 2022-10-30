@@ -5,7 +5,7 @@
  * Description:         <PLUGIN-DESCRIPTION>.
  * Author:              Marco Di Bella
  * Author URI:          https://www.marcodibella.de
- * Requires at least:   <WORDPRESS-VERSION>
+ * Requires at least:   <WORDPRESS-MINIMUM-VERSION>
  * Tested up to:        <WORDPRESS-VERSION>
  * Requires PHP:        <PHP-VERSION>
  * Version:             <PLUGIN-VERSION>
