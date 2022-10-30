@@ -12,8 +12,8 @@
  * Text Domain:         <PLUGIN-TEXTDOMAIN>
  * Domain Path:         /languages
  *
- * @author  Marco Di Bella
- * @package <PLUGIN-PACKAGE>
+ * @author   Marco Di Bella
+ * @package  <PLUGIN-PACKAGE>
  */
 
 namespace PLUGIN_NAMESPACE;
