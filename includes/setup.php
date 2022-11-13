@@ -31,6 +31,22 @@ register_activation_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_activation' );
 
 
 /**
+ * The init function for the plugin.
+ *
+ * @since 1.0.0
+ */
+
+function plugin_init()
+{
+    // Load text domain
+    load_plugin_textdomain( 'PLUGIN-TEXTDOMAIN', false, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages' );
+}
+
+add_action( 'init', 'mdb_theme_core\plugin_init' );
+
+
+
+/**
  * The deactivation function for the plugin.
  *
  * @since  1.0.0
