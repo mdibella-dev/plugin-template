@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) or exit;
 
 
 
-/** Variables and definitions **/
+/** Variables and definitions */
 
 const PLUGIN_VERSION = '1.0.0';          // eg. 1.0.0
 const PLUGIN_DOMAIN  = '<PLUGIN-TEXTDOMAIN>';

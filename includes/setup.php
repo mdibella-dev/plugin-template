@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) or exit;
 /**
  * The activation function for the plugin.
  *
- * @since  1.0.0
+ * @since 1.0.0
  */
 
 function plugin_activation()
@@ -39,17 +39,17 @@ register_activation_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_activation' );
 function plugin_init()
 {
     // Load text domain
-    load_plugin_textdomain( PLUGIN-DOMAIN, false, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages' );
+    load_plugin_textdomain( PLUGIN_DOMAIN, false, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages' );
 }
 
-add_action( 'init', 'mdb_theme_core\plugin_init' );
+add_action( 'init', 'PLUGIN_NAMESPACE\plugin_init' );
 
 
 
 /**
  * The deactivation function for the plugin.
  *
- * @since  1.0.0
+ * @since 1.0.0
  */
 
 function plugin_deactivation()
@@ -64,7 +64,7 @@ register_deactivation_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_deactivation' );
 /**
  * The uninstall function for the plugin.
  *
- * @since  1.0.0
+ * @since 1.0.0
  */
 
 function plugin_uninstall()
