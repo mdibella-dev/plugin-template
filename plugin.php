@@ -27,10 +27,10 @@ defined( 'ABSPATH' ) or exit;
 
 /** Variables and definitions */
 
-define( 'PLUGIN_VERSION', '<PLUGIN-VERSION>' );
-define( 'PLUGIN_DOMAIN', '<PLUGIN-TEXTDOMAIN>' );
-define( 'PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+const PLUGIN_VERSION = '<PLUGIN-VERSION>';
+const PLUGIN_DOMAIN  = '<PLUGIN-TEXTDOMAIN>';
+const PLUGIN_DIR     = plugin_dir_path( __FILE__ );
+const PLUGIN_URL     = plugin_dir_url( __FILE__ );
 
 
 
