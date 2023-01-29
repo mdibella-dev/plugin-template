@@ -5,6 +5,7 @@
  * Description:         <PLUGIN-DESCRIPTION>.
  * Author:              Marco Di Bella
  * Author URI:          https://www.marcodibella.de
+ * License:             MIT License
  * Requires at least:   <WORDPRESS-MINIMUM-VERSION>
  * Tested up to:        <WORDPRESS-VERSION>
  * Requires PHP:        <PHP-VERSION>
