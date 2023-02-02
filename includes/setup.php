@@ -16,21 +16,6 @@ defined( 'ABSPATH' ) or exit;
 
 
 /**
- * The activation function for the plugin.
- *
- * @since 1.0.0
- */
-
-function plugin_activation()
-{
-    // Do something!
-}
-
-register_activation_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_activation' );
-
-
-
-/**
  * The init function for the plugin.
  *
  * @since 1.0.0
@@ -43,6 +28,21 @@ function plugin_init()
 }
 
 add_action( 'init', 'PLUGIN_NAMESPACE\plugin_init' );
+
+
+
+/**
+ * The activation function for the plugin.
+ *
+ * @since 1.0.0
+ */
+
+function plugin_activation()
+{
+    // Do something!
+}
+
+register_activation_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_activation' );
 
 
 
