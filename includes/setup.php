@@ -39,7 +39,7 @@ register_activation_hook( __FILE__, 'PLUGIN_NAMESPACE\plugin_activation' );
 function plugin_init()
 {
     // Load text domain
-    load_plugin_textdomain( '<PLUGIN-TEXTDOMAIN>', false, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages' );
+    load_plugin_textdomain( 'PLUGIN-TEXTDOMAIN', false, PLUGIN_DIR . '/languages' );
 }
 
 add_action( 'init', 'PLUGIN_NAMESPACE\plugin_init' );
