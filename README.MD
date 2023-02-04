@@ -1,19 +1,20 @@
-# <PLUGIN-TITLE>
-<PLUGIN-DESCRIPTION>
+# ph_PLUGIN-TITLE
+ph_PLUGIN-DESCRIPTION
 
 __Contributors:__ mdibella-dev
 
 __Tags:__
 
-__Requires at least:__ WordPress <WORDPRESS-MINIMUM-VERSION>
+__Requires at least:__ WordPress ph_WORDPRESS-MINIMUM-VERSION
 
-__Tested up to:__ WordPress <WORDPRESS-VERSION>
+__Tested up to:__ WordPress ph_WORDPRESS-VERSION
 
 __License:__ MIT License
 
 
 ## Changelog
-*New/Improve/Bugfix*
+*New / Improve / Bugfix*
 
 
 ### main
+* Initial commit

@@ -1,23 +1,23 @@
 <?php
 /**
- * Plugin Name:         <PLUGIN-TITLE>
- * Plugin URI:          <PLUGIN-URI>
- * Description:         <PLUGIN-DESCRIPTION>.
+ * Plugin Name:         ph_PLUGIN-TITLE
+ * Plugin URI:          ph_PLUGIN-URI
+ * Description:         ph_PLUGIN-DESCRIPTION.
  * Author:              Marco Di Bella
  * Author URI:          https://www.marcodibella.de
  * License:             MIT License
- * Requires at least:   <WORDPRESS-MINIMUM-VERSION>
- * Tested up to:        <WORDPRESS-VERSION>
- * Requires PHP:        <PHP-VERSION>
- * Version:             <PLUGIN-VERSION>
- * Text Domain:         <PLUGIN-TEXTDOMAIN>
+ * Requires at least:   ph_WORDPRESS-MINIMUM-VERSION
+ * Tested up to:        ph_WORDPRESS-VERSION
+ * Requires PHP:        ph_PHP-VERSION
+ * Version:             ph_PLUGIN-SEMANTIC-VERSION
+ * Text Domain:         ph_PLUGIN-TEXTDOMAIN
  * Domain Path:         /languages
  *
  * @author   Marco Di Bella
- * @package  <PLUGIN-PACKAGE>
+ * @package  ph_PLUGIN-PACKAGE
  */
 
-namespace PLUGIN_NAMESPACE;
+namespace ph_PLUGIN_NAMESPACE;
 
 
 /** Prevent direct access */
@@ -28,7 +28,7 @@ defined( 'ABSPATH' ) or exit;
 
 /** Variables and definitions */
 
-define( __NAMESPACE__ . '\PLUGIN_VERSION', '<PLUGIN-VERSION>' );
+define( __NAMESPACE__ . '\PLUGIN_VERSION', 'ph_PLUGIN-SEMANTIC-VERSION' );
 define( __NAMESPACE__ . '\PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( __NAMESPACE__ . '\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 

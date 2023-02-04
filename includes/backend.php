@@ -3,10 +3,10 @@
  * Functions to handle the backend.
  *
  * @author   Marco Di Bella
- * @package  <PLUGIN-PACKAGE>
+ * @package  ph_PLUGIN-PACKAGE
  */
 
-namespace PLUGIN_NAMESPACE;
+namespace ph_PLUGIN_NAMESPACE;
 
 
 /** Prevent direct access */
@@ -26,4 +26,4 @@ function admin_enqueue_scripts()
     // Do something!
 }
 
-add_action( 'admin_enqueue_scripts','PLUGIN_NAMESPACE\admin_enqueue_scripts' );
+add_action( 'admin_enqueue_scripts','ph_PLUGIN_NAMESPACE\admin_enqueue_scripts' );
