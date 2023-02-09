@@ -2,8 +2,8 @@
 /**
  * Functions to handle the backend.
  *
- * @author   Marco Di Bella
- * @package  ph_PLUGIN-PACKAGE
+ * @author  Marco Di Bella
+ * @package ph_PLUGIN-PACKAGE
  */
 
 namespace ph_PLUGIN_NAMESPACE;

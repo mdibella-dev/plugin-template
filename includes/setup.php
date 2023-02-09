@@ -2,8 +2,8 @@
 /**
  * Functions to activate, initiate and deactivate the plugin.
  *
- * @author   Marco Di Bella
- * @package  ph_PLUGIN-PACKAGE
+ * @author  Marco Di Bella
+ * @package ph_PLUGIN-PACKAGE
  */
 
 namespace ph_PLUGIN_NAMESPACE;
