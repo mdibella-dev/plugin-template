@@ -1,20 +1,37 @@
 # ph_PLUGIN-TITLE
 ph_PLUGIN-DESCRIPTION
 
-__Contributors:__ mdibella-dev
+<br>
 
-__Tags:__
+## Development Info
 
-__Requires at least:__ WordPress ph_WORDPRESS-MINIMUM-VERSION
+### Contributors
+[Marco Di Bella ](https://github.com/mdibella-dev)
 
-__Tested up to:__ WordPress ph_WORDPRESS-VERSION
+### Tags
+...
 
-__License:__ MIT License
+### Requires at least
 
+* WordPress ph_WORDPRESS-MINIMUM-VERSION
+
+### Tested up to
+
+* WordPress ph_WORDPRESS-VERSION
+
+<br>
 
 ## Changelog
-*New / Improve / Bugfix*
+
+### Latest changes to the main branch
 
 
-### main
-* Initial commit
+### Previous changes
+
+See [CHANGELOG.md](https://github.com/mdibella-dev/plugin-template/blob/main/CHANGELOG.md).
+
+<br>
+
+## License
+
+This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/plugin-template/blob/main/LICENSE.md) for further details.
