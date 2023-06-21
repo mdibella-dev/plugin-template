@@ -27,7 +27,7 @@ function plugin_init()
     load_plugin_textdomain( 'ph_PLUGIN-TEXTDOMAIN', false, plugin_basename( PLUGIN_DIR ) . '/languages' );
 }
 
-add_action( 'init', 'ph_PLUGIN_NAMESPACE\plugin_init' );
+add_action( 'init', __NAMESPACE__ . '\plugin_init' );
 
 
 
@@ -42,7 +42,7 @@ function plugin_activation()
     // Do something!
 }
 
-register_activation_hook( __FILE__, 'ph_PLUGIN_NAMESPACE\plugin_activation' );
+register_activation_hook( __FILE__, __NAMESPACE__ . '\plugin_activation' );
 
 
 
@@ -57,7 +57,7 @@ function plugin_deactivation()
     // Do something!
 }
 
-register_deactivation_hook( __FILE__, 'ph_PLUGIN_NAMESPACE\plugin_deactivation' );
+register_deactivation_hook( __FILE__, __NAMESPACE__ . '\plugin_deactivation' );
 
 
 
@@ -74,4 +74,4 @@ function plugin_uninstall()
     // Delete custom tables!
 }
 
-register_uninstall_hook( __FILE__, 'ph_PLUGIN_NAMESPACE\plugin_uninstall' );
+register_uninstall_hook( __FILE__, __NAMESPACE__ . '\plugin_uninstall' );
