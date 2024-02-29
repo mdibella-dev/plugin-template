@@ -23,11 +23,6 @@ ph_PLUGIN-DESCRIPTION
 
 ## Changelog
 
-### Latest changes to the main branch
-
-
-### Previous changes
-
 See [CHANGELOG.md](https://github.com/mdibella-dev/plugin-template/blob/main/CHANGELOG.md).
 
 <br>
