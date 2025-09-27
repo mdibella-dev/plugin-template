@@ -45,8 +45,6 @@ function plugin_activation() {
     // Do something!
 }
 
-register_activation_hook( __FILE__, __NAMESPACE__ . '\plugin_activation' );
-
 
 
 /**
@@ -64,7 +62,6 @@ function plugin_deactivation() {
     // Do something!
 }
 
-register_deactivation_hook( __FILE__, __NAMESPACE__ . '\plugin_deactivation' );
 
 
 
@@ -84,5 +81,3 @@ function plugin_uninstall() {
     // Delete options!
     // Delete custom tables!
 }
-
-register_uninstall_hook( __FILE__, __NAMESPACE__ . '\plugin_uninstall' );

@@ -38,3 +38,11 @@ define( __NAMESPACE__ . '\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 require_once PLUGIN_DIR . 'includes/setup.php';
 require_once PLUGIN_DIR . 'includes/backend.php';
+
+
+
+/** Add hooks */
+
+register_activation_hook( __FILE__, __NAMESPACE__ . '\plugin_activation' );
+register_deactivation_hook( __FILE__, __NAMESPACE__ . '\plugin_deactivation' );
+register_uninstall_hook( __FILE__, __NAMESPACE__ . '\plugin_uninstall' );
