@@ -10,7 +10,6 @@ namespace ph_PLUGIN_NAMESPACE;
 
 
 /** Prevent direct access */
-
 defined( 'ABSPATH' ) or exit;
 
 
@@ -18,9 +17,12 @@ defined( 'ABSPATH' ) or exit;
 /**
  * Load the backend scripts and styles.
  *
- * @since 1.0.0
+ * @since   1.0.0
+ *
+ * @param   void
+ *
+ * @return  void
  */
-
 function admin_enqueue_scripts() {
     // Do something!
 }
